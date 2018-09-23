@@ -1,5 +1,5 @@
 # Mangrove-Land-Cover
-A collection of R language routines from calculating land cover surrounding mangrove locations
+A collection of R language routines from calculating land cover surrounding mangrove locations as well as flooding metrics from constructed water-level models
 
 This collection is meant to accompany the manuscript entitled "Urbanization plays a minor role in the flooding and surface water chemistry of Puerto Rico’s mangroves", currently in review. The manuscript describes the modeling of surface water levels in mangroves across Puerto Rico, and the use of these models to calculate flooding metrics within the mangroves. It also describes how surrounding land cover at each site is assessed to quantify the level of urbanization around the mangroves. The flooding metrics are then used along with surface water chemistry measurements in correlations with the sampled land cover. The manuscript describes how urbanization influences the flooding and surface water chemistry of the mangroves of Puerto Rico.
 
