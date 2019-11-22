@@ -9,6 +9,7 @@
 library(lubridate)  # this package is necessary for the timing statistics
 library(plyr) # this package is necessary for aggregations
 
+# this can be found in the "HOBOS.zip" archive on GitHub
 Mang <- readOGR("D:/Dropbox/Dissertation/GIS files/MangroveDistribution/PRMangrovesCombined/PRMangroves_HOBOS.shp")
 
 mflood_data_t <- as.data.frame(rep(seq(1:70),16))  ## create the monthly statistics data set, with the number of months in the time period (70) by the number of sites (16)
