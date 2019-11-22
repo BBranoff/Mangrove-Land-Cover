@@ -1,6 +1,6 @@
 ##############     Calculate inundation statistics      #####################
 ##############                                            ##########################
-## this code uses a preconstructed list of dataframes, each containing a column for every location and a row for each water level observation
+## this code uses a preconstructed list of dataframes (as output from the "Mangrove Points.R script"), each containing a column for every location and a row for each water level observation
 ## the code cycles through these dataframes and calculates the flooding statistics for each location
 ## these statistics are saved to the computer after the completion of each dataframe
 
