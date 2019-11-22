@@ -14,7 +14,7 @@ Mang <- readOGR("D:/Dropbox/Dissertation/GIS files/MangroveDistribution/PRMangro
 
 mflood_data_t <- as.data.frame(rep(seq(1:70),16))  ## create the monthly statistics data set, with the number of months in the time period (70) by the number of sites (16)
 colnames(mflood_data_t)<-"month" ## this first column is the consecutive month number
-mflood_data_t$loc <- rep(unique(Mang$HOBO),each=70) ## the second column is the site name
+mflood_data_t$loc <- rep(unique(Mang$HOBOS),each=70) ## the second column is the site name
 mflood_data <- mflood_data_t  # a temporary data set that will be used within the loop
 listofdfs <- readRDS("D:/Documents/PhD/Water Level dfs/dfs_100.rds")  ## read in the list of dataframes created in the previous step
 listofpoints <- readRDS("D:/Documents/PhD/Water Level dfs/points_100.rds") ## read in the list of coordinates corresponding to the columns in the list of data frames
