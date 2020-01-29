@@ -15,4 +15,6 @@ Flooding Stats:  With the water levels calculated at all points, this routine re
 
 Land Cover Stats:  This routine uses a number of spatial inputs to sample the surrounding land cover at each points. It extracts urban and green & blue (vegetation + open water) coverage, population density, road lengths, and mangrove coverage surrounding each point. 
 
+ConstituentImportance.csv is the extended model coefficients and importance values for each tidal harmonic consitutuent and for rainfall at each site. 
+
 I have included files small enough for GitHub, and others are available for free online following the commented sources in the R scripts. 
