@@ -9,6 +9,8 @@ Water Level Models: This routine takes as an input water level observations from
 
 Mangrove Points: This routine takes as inputs shapefiles of mangrove zones in Puerto Rico, each zone corresponding to a piezometer, as well as the point locations of the piezometers. It also takes digitial elevation models (DEMS) for the area and randomly samples elevations within the mangrove zones. It then uses the observed water levels at the piezometers and the difference in elevation between the random point and the piezometer to calculate the water level at the random point.
 
+Mods.csv is the result of the above routines and includes the original weather and water level observations for every hour from 2012 to 2017 as well as the tidal, perecipitation, and combined models for each site.
+
 Flooding Stats:  With the water levels calculated at all points, this routine returns flooding metrics for each point. Metrics include hydroperiod (flood duration) flood depth, flood frequency etc.
 
 Land Cover Stats:  This routine uses a number of spatial inputs to sample the surrounding land cover at each points. It extracts urban and green & blue (vegetation + open water) coverage, population density, road lengths, and mangrove coverage surrounding each point. 
